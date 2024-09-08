@@ -1,8 +1,8 @@
-import warnings
+
 from sklearn.exceptions import InconsistentVersionWarning
 import pandas as pd
 
-warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
+
 
 from joblib import load
 
