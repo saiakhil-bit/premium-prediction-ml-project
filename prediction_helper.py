@@ -3,7 +3,6 @@ import pandas as pd
 
 
 
-from joblib import load
 
 model_dr = r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\model_young.joblib"
 model_dy = r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\model_young.joblib"
