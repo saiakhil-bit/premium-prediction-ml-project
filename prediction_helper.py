@@ -1,5 +1,4 @@
 
-from sklearn.exceptions import InconsistentVersionWarning
 import pandas as pd
 
 
