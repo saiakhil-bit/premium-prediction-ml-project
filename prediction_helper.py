@@ -5,10 +5,10 @@ from joblib import load
 
 
 
-model_dr = r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\model_young.joblib"
-model_dy = r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\model_young.joblib"
-scaler_dr= r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\scaler_rest.joblib"
-scaler_dy=r"C:\Users\AKHIL\OneDrive\Desktop\App\artifacts\scaler_young.joblib"
+model_dr = r"C:/Users/AKHIL/OneDrive/Desktop/App/artifacts/model_young.joblib"
+model_dy = r"C:/Users/AKHIL/OneDrive/Desktop/App/artifacts/model_young.joblib"
+scaler_dr= r"C:/Users/AKHIL/OneDrive/Desktop/App/artifacts/scaler_rest.joblib"
+scaler_dy=r"C:/Users/AKHIL/OneDrive/Desktop/App/artifacts/scaler_young.joblib"
 model_rest = load(model_dr)
 model_young=load(model_dy)
 scaler_rest=load(scaler_dr)
